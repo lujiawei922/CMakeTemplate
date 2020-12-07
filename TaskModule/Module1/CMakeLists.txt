@@ -26,7 +26,7 @@ OPTION(FBASE_MAKE
 		ON
 		)
 
-#C++编译参数
+# C++编译参数
 SET(CMAKE_CXX_FLAGS "-std=c++0x -Wunused-variable ${CMAKE_CXX_FLAGS}")
 #release与debug编译参数
 SET(CMAKE_CXX_FLAGS_DEBUG "$ENV{CXXFLAGS} -O0 -Wall -g -ggdb")
